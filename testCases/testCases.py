@@ -13,7 +13,7 @@ class TestCases(unittest.TestCase):
         self.sp = SearchPage(driver)
 
     # 后置条件
-    def tearDown(self) -> None:
+    def tearDown(self) -> None: 
         self.sp.quit_browser()
 
     # 测试用例

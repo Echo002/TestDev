@@ -15,3 +15,7 @@ class BasePage(object):
     # 访问URL
     def visit(self, url):
         self.driver.get(url)
+
+    #
+    def get_tittle(self):
+        return self.driver.title
